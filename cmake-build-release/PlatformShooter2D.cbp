@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PlatformShooter2D"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlatformShooter2D">
+				<Option output="C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/PlatformShooter2D.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 PlatformShooter2D"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlatformShooter2D/fast">
+				<Option output="C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/PlatformShooter2D.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 PlatformShooter2D/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alito/dat220g19v/PlatformShooter2D/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/DEFINITIONS.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/AssetManager.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/AssetManager.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/Game.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/Game.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/InputManager.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/InputManager.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/State.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/StateMachine.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/Engine/StateMachine.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Animations/Animation.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Animations/Animation.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Animations/BowAnimation.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Animations/BowAnimation.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Animations/Enemy1Animation.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Animations/Enemy1Animation.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Characters/CharacterBow.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Characters/CharacterBow.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Characters/Enemy1.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Characters/Enemy1.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Characters/Player.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Characters/Player.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Collision/Collision.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Collision/Collision.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/HelpState.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/HelpState.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/InGame.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/InGame.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/MainMenu.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/MainMenu.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Map/map.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Map/map.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/Bullet.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/Bullet.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/BulletReplacer.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/BulletReplacer.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/bigRectangle.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/bigRectangle.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/layer.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/layer.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/movingRectangle.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/movingRectangle.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/object.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/sprite.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/Objects/sprite.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/StartScreen.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/States/StartScreen.h">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/main.cpp">
+			<Option target="PlatformShooter2D"/>
+		</Unit>
+		<Unit filename="C:/Users/alito/dat220g19v/PlatformShooter2D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
