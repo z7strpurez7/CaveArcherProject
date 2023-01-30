@@ -28,7 +28,7 @@ private:
 
     sf::Sprite _background;
 
-    sf::Sprite playButton, settingsButton, helpButton, returnButton;
+    sf::Sprite playButton, settingsButton, helpButton, returnButton, backGround;
     sf::Text playText;
     sf::Font font;
 

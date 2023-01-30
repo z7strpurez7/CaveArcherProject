@@ -26,8 +26,8 @@ void StartScreen::Init() {
     playText.setFillColor(sf::Color::White);
 
     this->underText.setFont(this->_data->assets.GetFont("font"));
-    this->underText.setString("Powered by Ali's hjemmelagde engine");
-    underText.setCharacterSize(80);
+    this->underText.setString("Powered by Ali's gameengine");
+    underText.setCharacterSize(60);
     underText.setOrigin(  underText.getGlobalBounds().width/2,   underText.getGlobalBounds().top/2);
     underText.setPosition(SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
     underText.setFillColor(sf::Color::White);

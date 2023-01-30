@@ -14,6 +14,7 @@ void MainMenu::Init() {
     this->_data->assets.LoadTexture("Settings", SETTINGS);
     this->_data->assets.LoadTexture("Help",HELP);
     this->_data->assets.LoadTexture("Return", RETURN);
+    this->_data->assets.LoadTexture("Background", BACKGROUND);
 
 
     sf::Cursor cursor;
@@ -25,6 +26,7 @@ void MainMenu::Init() {
     settingsButton.setTexture(this->_data->assets.GetTexture("Settings"));
     helpButton.setTexture(this->_data->assets.GetTexture("Help"));
     returnButton.setTexture(this->_data->assets.GetTexture("Return"));
+    backGround.setTexture(this->_data->assets.GetTexture("Background"));
 
 
 /*
@@ -37,6 +39,10 @@ void MainMenu::Init() {
     settingsButton.setPosition(this->_data->window.getSize().x/2-settingsButton.getGlobalBounds().width/2, this->_data->window.getSize().y/6+150);
     helpButton.setPosition(this->_data->window.getSize().x/2-helpButton.getGlobalBounds().width/2, this->_data->window.getSize().y/6+300);
     returnButton.setPosition(this->_data->window.getSize().x/2-returnButton.getGlobalBounds().width/2, _data->window.getSize().y/6+600);
+    backGround.setPosition(this->_data->window.getSize().x/2-backGround.getGlobalBounds().width/2,0);
+
+
+
 
     this->_data->assets.LoadFont("font" , FONT_BASIC);
     this->playText.setFont(this->_data->assets.GetFont("font"));
@@ -57,13 +63,11 @@ void MainMenu::Draw(float dt) {
 
 
   //  this->_data->window.draw(playText);
+    this->_data->window.draw(backGround);
     this->_data->window.draw(playButton);
     this->_data->window.draw(settingsButton);
     this->_data->window.draw(helpButton);
     this->_data->window.draw(returnButton);
-
-
-
     this->_data->window.display();
 }
 void MainMenu::Update(float dt) {

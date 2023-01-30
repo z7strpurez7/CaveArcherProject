@@ -1,4 +1,4 @@
-C:\Users\alito\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.6461.75\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release "-DCMAKE_CXX_FLAGS=-IC:/dev/libs/SFML/include -IC:/dev/libs/jsoncpp/include" "-DCMAKE_EXE_LINKER_FLAGS=-LC:/dev/libs/SFML/lib -LC:/dev/libs/jsoncpp/lib" -G "CodeBlocks - MinGW Makefiles" C:\Users\alito\dat220g19v\PlatformShooter2D
+C:\Users\alito\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.3739.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release "-DCMAKE_CXX_FLAGS=-IC:/dev/libs/SFML/include -IC:/dev/libs/jsoncpp/include" "-DCMAKE_EXE_LINKER_FLAGS=-LC:/dev/libs/SFML/lib -LC:/dev/libs/jsoncpp/lib" -G "CodeBlocks - MinGW Makefiles" -S C:\Users\alito\dat220g19v\PlatformShooter2D -B C:\Users\alito\dat220g19v\PlatformShooter2D\cmake-build-release
 -- The C compiler identification is GNU 7.3.0
 -- The CXX compiler identification is GNU 7.3.0
 -- Detecting C compiler ABI info

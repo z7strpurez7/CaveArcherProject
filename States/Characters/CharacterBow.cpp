@@ -44,7 +44,6 @@ void CharacterBow::Update(float deltaTime, sf::Vector2f playerPosition, sf::Rend
 
     body.setTextureRect(animation.uvVrect);
     animation.Update(row, deltaTime,switchTimes, currentMax,currentMin, firing, faceRight);
-
 }
 
 void CharacterBow::Draw(sf::RenderWindow &window) {

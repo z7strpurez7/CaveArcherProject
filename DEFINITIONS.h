@@ -22,6 +22,7 @@
 #define HELP "MainMenu/Help.png"
 #define RETURN "MainMenu/Return.png"
 #define CONTROLS "MainMenu/Controls.png"
+#define BACKGROUND "MainMenu/Background.png"
 
 
 

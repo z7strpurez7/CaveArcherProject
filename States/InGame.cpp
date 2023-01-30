@@ -9,7 +9,7 @@ InGame::InGame(GameDataRef data) : _data(data) {
 }
 void InGame::Init() {
     //Vindu instillinger
-    this->_data->window.setFramerateLimit(120);
+    this->_data->window.setFramerateLimit(60);
     this->_data->window.setView(_data->window.getDefaultView());
     view.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
     startViewCenter = sf::Vector2f(SCREEN_WIDTH/2.f, SCREEN_HEIGHT/2.f);
@@ -139,6 +139,12 @@ void InGame::Init() {
         }
     }
 
+
+    //// UTSKRIFT AV MAP DETALHER
+    std::cout<<"Map Width: "<< map.getWidth()  << " Map height: " << map.getHeight();
+    std::cout<<"tile Widht:" <<map.getTileWidth() << "Tileheight" << map.getTileHeight();
+
+
     this->boss = new Enemy1(&this->_data->assets.GetTexture("Enemy1"),&this->_data->assets.GetTexture("Enemy1HealthBar"),sf::Vector2u(29, 1), 0.020f, 50.f ,sf::Vector2f(376,256),
                             sf::Vector2f(11000, 2300),true, false);
     enemyBoss1.push_back(boss);
@@ -185,13 +191,13 @@ void InGame::HandleInput() {
 
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num1)){
         //Velg firerate
-        firerate = 500;
+      //  firerate = 1;
         b1.setArrowSpeed(15, 9.81*2);
         bowOver->setBowColor(sf::Color::Yellow);
         bowOver->setSwitchTime(firerate/4000.f);
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Num2)){
-        firerate = 1000;
+   //     firerate = 1000;
         b1.setArrowSpeed(20, 9.81/4);
         bowOver->setBowColor(sf::Color::Green);
         bowOver->setSwitchTime(firerate/4000.f);
@@ -417,14 +423,20 @@ void InGame::Update(float dt) {
     }
 
 
+
+
+
+   ////// VIEW FOR FULLSCREEN 1920x1080 (UNDER UTVIKLING)
+
     if (player1->GetPosition().y > (SCREEN_HEIGHT*2.0) &&player1->GetPosition().y > floor((SCREEN_HEIGHT*2)+player1->body.getSize().y/2)) {
         view.setCenter(floor(view.getCenter().x), floor((SCREEN_HEIGHT*2.5 +player1->body.getSize().y)));
     }
-   else if (player1->GetPosition().y < (SCREEN_HEIGHT*2.0) && player1->GetPosition().y > floor((SCREEN_HEIGHT*1)+player1->body.getSize().y)) {
+    else if (player1->GetPosition().y < (SCREEN_HEIGHT*2.0) && player1->GetPosition().y > floor((SCREEN_HEIGHT*1)+player1->body.getSize().y)) {
         view.setCenter(floor(view.getCenter().x), floor((SCREEN_HEIGHT*1.5)+player1->body.getSize().y));
     } else if (player1->GetPosition().y < (SCREEN_HEIGHT) && player1->GetPosition().y > 0) {
         view.setCenter(floor(view.getCenter().x), floor(startViewCenter.y+player1->body.getSize().y));
     }
+
     player1->setHpBarPos(sf::Vector2f (25+view.getCenter().x-(SCREEN_WIDTH/2.f), 25+view.getCenter().y-(SCREEN_HEIGHT/2.f)));
 
 
